@@ -5,5 +5,12 @@
       "src": "api/review.js",
       "use": "@vercel/node"
     }
-  ]
+  ],
+  "routes": [
+    {
+      "src": "/api/review",
+      "dest": "/api/review.js"
+    }
+  ],
+  "ignoreBuildStep": true
 }
