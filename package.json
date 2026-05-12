@@ -1,0 +1,18 @@
+{
+  "name": "feishu-review-webhook",
+  "version": "1.0.0",
+  "description": "飞书多维表格审核 webhook 服务",
+  "main": "webhook-server.js",
+  "scripts": {
+    "start": "node webhook-server.js",
+    "dev": "nodemon webhook-server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
